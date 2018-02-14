@@ -5,7 +5,7 @@ package Modelo;
  *
  */
 
-public class Asinatura {
+public class Asignatura {
 	
 	private int id;
 	private String nombre;
