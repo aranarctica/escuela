@@ -1,6 +1,6 @@
 package Modelo;
 
-public class MatriculaModelo {
+public class MatriculaModelo extends Conector {
 
 	/**
 	 * Creamos la opcion de crear una matricula

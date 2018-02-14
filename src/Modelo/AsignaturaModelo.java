@@ -1,6 +1,6 @@
 package Modelo;
 
-public class AsignaturaModelo {
+public class AsignaturaModelo extends Conector{
 
 	/**
 	 * Creamos la opción de insertar asignatura
