@@ -9,7 +9,7 @@ public class Conector {
 	Conector(){
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			this.conexion
+			
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
