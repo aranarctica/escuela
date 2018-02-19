@@ -8,8 +8,8 @@ import java.sql.Date;
 public class Matricula {
 	
 	
-	private int id_alumno;
-	private int id_asignatura;
+	private int idAlumno;
+	private int idAsignatura;
 	private Date fecha;
 	
 	/**
@@ -18,16 +18,16 @@ public class Matricula {
 	 */
 	
 	public int getId_alumno() {
-		return id_alumno;
+		return idAlumno;
 	}
 	public void setId_alumno(int id_alumno) {
-		this.id_alumno = id_alumno;
+		this.idAlumno = id_alumno;
 	}
 	public int getId_asignatura() {
-		return id_asignatura;
+		return idAsignatura;
 	}
 	public void setId_asignatura(int id_asignatura) {
-		this.id_asignatura = id_asignatura;
+		this.idAsignatura = id_asignatura;
 	}
 	public Date getFecha() {
 		return fecha;
